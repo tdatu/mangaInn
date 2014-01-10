@@ -21,6 +21,10 @@
 	echo "Enter the folder name: ";
 	$dir = fread(STDIN, 80);
 	
+	//Create a directory which ultimately 
+	//manga pages will be stored locally.
+	mkdir($dir);
+	
 	for($i = 0; $i < $episodeNumber; $i++)
 	{
 		if($i > 0)
