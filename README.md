@@ -9,6 +9,7 @@ simple_html_dom.php
 There are only two requirements when using the script:
 
 1) The base URL of the manga page.
+
 2) The number of pages to retrieve.
 
 Example:
